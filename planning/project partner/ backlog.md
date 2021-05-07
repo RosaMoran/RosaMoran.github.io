@@ -1,18 +1,20 @@
 
-## Must-Haves
+## Must-Have
 
-are necessary for basic usability:
+- Your name and job title
+- photo of you
+- your experience page
+- contact me page
+- **basic functionality**: header with  your name and job title, and a navbar with about me and contacts links. The body to contain a brief info about you, and a photo with Contact me button. Also footer with social media links 
 
-- **basic functionality**: see a logo, company name, company description, request for service, and footer with social media links
 
 ## Should-Have
+Achievements page where you talk about your work qualities and achievements
 
-i am just testing the basic should haves for this website 
-
-- **more advanced functions**: navigation, contact info, about
+- **more advanced functions**: Same header and footer along with the page body where you write your achievements and work qualities
   
 ## Could-Haves
 
-would be really cool ... if there's time:
+page about your goals and values
 
-- **user story name**: Work samples/product gallery
+- **user story name**: Same header and footer along with the page body where you write about your goals and values 

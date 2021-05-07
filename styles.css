@@ -92,6 +92,11 @@ body {
 .div {
   display: block;
 }
+@media only screen and (max-width: 768px) .leftt {
+  width: 100%;
+  order: 1;
+  padding: 0px 0px 50px;
+}
 
 .inftex {
   font-size: 20px;
@@ -115,8 +120,8 @@ p {
 }
 
 img {
-  width: 400px;
-  height: 500px;
+  width: 500px;
+  height: 650px;
 }
 
 .fot {

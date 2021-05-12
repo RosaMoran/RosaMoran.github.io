@@ -21,7 +21,7 @@ body {
   background: var(--page-bg);
 }
 
-.head .container {
+.heat .container {
   display: flex;
   align-items: center;
   padding: 2rem 1rem 2rem;
@@ -70,6 +70,8 @@ body {
   padding: 10px 20px;
   font-family: "Work Sans", sans-serif;
 }
+
+/* Navbar */
 
 .abome {
   display: flex;
@@ -127,6 +129,8 @@ p {
   margin-top: 5px;
   color: rgb(17, 22, 32);
 }
+
+/* fot part */
 
 .fot {
   display: flex;
@@ -186,8 +190,6 @@ p {
 .social {
   width: 46px;
   height: 66px;
-  border-radius: 0px;
   padding: 10px;
-  border: 1px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border: 2px;
 }

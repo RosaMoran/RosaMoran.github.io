@@ -63,8 +63,8 @@ body {
   -webkit-box-align: center;
   align-items: center;
   height: 100%;
-  color: rgb(55, 67, 88);
-  font-size: 12px;
+  color: rgb(9, 20, 39);
+  font-size: 18px;
   line-height: 160%;
   text-transform: uppercase;
   padding: 10px 20px;
@@ -82,7 +82,12 @@ body {
   background: none;
   z-index: 1;
   flex: 0 0 auto;
-  background: rgb(229, 230, 238);
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+  background: rgb(230, 231, 233);
+  margin-top: 50px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0, 4);
 }
 
 .abm {
@@ -95,6 +100,12 @@ body {
   display: block;
 }
 
+img {
+  width: 250px;
+  height: 340px;
+  box-shadow: 0px 6px 6px 0px rgba(15, 14, 14, 0.4);
+}
+
 .inftex {
   font-size: 20px;
   line-height: 140%;
@@ -105,28 +116,6 @@ body {
   font-weight: 700;
   color: rgb(55, 67, 88);
   text-align: right;
-  max-width: none;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-img {
-  width: 250px;
-  height: 340px;
-  box-shadow: 0px 6px 6px 0px rgba(15, 14, 14, 0.4);
-}
-
-.leftg {
-  height: 371px;
-  width: 312px;
-  left: 509px;
-  top: 254px;
 }
 
 .texinf {
@@ -137,6 +126,9 @@ img {
   line-height: 14px;
   letter-spacing: 0em;
   text-align: right;
+  margin: auto;
+  padding: 60px;
+  background: rgb(252, 253, 255);
 }
 .fot {
   display: flex;

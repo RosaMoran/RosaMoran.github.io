@@ -41,6 +41,7 @@ body {
   display: flex;
   justify-content: left;
   color: rgb(13, 45, 100);
+  text-align: justify;
 }
 .a {
   position: left;
@@ -81,6 +82,7 @@ body {
   background: none;
   z-index: 1;
   flex: 0 0 auto;
+  background: rgb(229, 230, 238);
 }
 
 .abm {
@@ -91,12 +93,6 @@ body {
 
 .div {
   display: block;
-}
-
-@media only screen and (max-width: 768px) .leftt {
-  width: 100%;
-  order: 1;
-  padding: 0px 0px 50px;
 }
 
 .inftex {
@@ -123,7 +119,7 @@ p {
 img {
   width: 250px;
   height: 340px;
-  box-shadow: 0px 6px 6px 0px rgba(50, 47, 47, 0.4);
+  box-shadow: 0px 6px 6px 0px rgba(15, 14, 14, 0.4);
 }
 
 .leftg {
@@ -134,18 +130,13 @@ img {
 }
 
 .texinf {
-  height: 253px;
-  width: 216px;
-  right: 246px;
-  top: 139px;
-  border-radius: inherit;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0em;
-  text-align: justify;
+  text-align: right;
 }
 .fot {
   display: flex;

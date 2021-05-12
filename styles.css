@@ -64,8 +64,8 @@ body {
   align-items: center;
   height: 100%;
   color: rgb(9, 20, 39);
-  font-size: 18px;
-  line-height: 160%;
+  font-size: 16px;
+  line-height: 10%;
   text-transform: uppercase;
   padding: 10px 20px;
   font-family: "Work Sans", sans-serif;
@@ -95,10 +95,10 @@ body {
   margin: 50px 0px;
 }
 
-.abm img {
-  width: 250px;
-  height: 340px;
-  box-shadow: 0px 6px 6px 0px rgba(15, 14, 14, 0.4);
+.pict img {
+  width: 350px;
+  height: 500px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 .titrosa {
@@ -109,7 +109,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
-  color: rgb(55, 67, 88);
+  color: rgb(22, 30, 44);
   text-align: center;
 }
 
@@ -125,6 +125,7 @@ p {
   padding: 60px;
   background: rgb(252, 253, 255);
   margin-top: 5px;
+  color: rgb(17, 22, 32);
 }
 
 .fot {
@@ -171,7 +172,7 @@ p {
 .folww {
   font-size: 18px;
   line-height: 20%;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   text-transform: uppercase;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -182,11 +183,11 @@ p {
   position: center;
 }
 
-.fb {
-  width: 56px;
-  height: 36px;
-  object-fit: fill;
+.social {
+  width: 46px;
+  height: 66px;
   border-radius: 0px;
-  padding: 0;
-  border: 0;
+  padding: 10px;
+  border: 1px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 }

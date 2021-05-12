@@ -92,6 +92,7 @@ body {
 .div {
   display: block;
 }
+
 @media only screen and (max-width: 768px) .leftt {
   width: 100%;
   order: 1;
@@ -107,7 +108,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   color: rgb(55, 67, 88);
-  text-align: left;
+  text-align: right;
   max-width: none;
 }
 
@@ -120,10 +121,32 @@ p {
 }
 
 img {
-  width: 500px;
-  height: 650px;
+  width: 250px;
+  height: 340px;
+  box-shadow: 0px 6px 6px 0px rgba(50, 47, 47, 0.4);
 }
 
+.leftg {
+  height: 371px;
+  width: 312px;
+  left: 509px;
+  top: 254px;
+  border-radius: nullpx;
+}
+.texinf {
+  height: 253px;
+  width: 216px;
+  right: 246px;
+  top: 139px;
+  border-radius: inherit;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: justify;
+}
 .fot {
   display: flex;
   -webkit-box-pack: center;

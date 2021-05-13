@@ -18,7 +18,7 @@ body {
   color: var(--color-default);
   -webkit-font-smoothing: antialiased;
   padding: 1rem 1rem 0;
-  background: var(--page-bg);
+  background-image: url("./pictures/desktop-2325627_1920.jpg");
 }
 
 /* navbar */
@@ -35,15 +35,16 @@ body {
 }
 
 .my-name {
-  font-weight: 400;
+  font-weight: 700;
   font-style: italic;
   font-family: "Work Sans", sans-serif;
   font-size: 35px;
   letter-spacing: 0.03em;
   display: flex;
   justify-content: left;
-  color: rgb(13, 45, 100);
+  color: rgb(248, 225, 93);
   text-align: justify;
+  text-shadow: 3px 3px 3px rgba(9, 9, 9, 9);
 }
 .a {
   position: left;
@@ -82,7 +83,6 @@ body {
   width: 100%;
   padding: 50px 20px;
   position: relative;
-  background: none;
   z-index: 1;
   flex: 0 0 auto;
   max-width: 1000px;
@@ -128,7 +128,7 @@ p {
   letter-spacing: 0em;
   text-align: justify;
   margin: auto;
-  padding: 4px;
+  padding: 5px;
   background: rgb(252, 253, 255);
   margin-top: 5px;
   color: rgb(17, 22, 32);
